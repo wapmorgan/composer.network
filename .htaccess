@@ -1,0 +1,6 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+DirectoryIndex index.html
+RewriteBase /
+RewriteEngine On
+RewriteRule ^badge\/([a-z0-9-]+\/[a-z0-9-]+)\/(0|1|2)(\/\.(png|svg|gif))? index.php?package=$1&size=$2
+RewriteRule ^badge\/([a-z0-9-]+\/[a-z0-9-]+)(\/\.(png|svg|gif))? index.php?package=$1

@@ -50,3 +50,4 @@ header('Content-Type: image/svg+xml');
         <text x="<?=$l/2+$p?>" y="<?=$h*0.75?>" fill="#010101" fill-opacity=".3"><?=$package?></text>
         <text x="<?=$l/2+$p?>" y="<?=$h*0.7?>"><?=$package?></text>
     </g>
+</svg>
